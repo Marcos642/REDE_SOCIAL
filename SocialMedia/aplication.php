@@ -21,7 +21,6 @@ class Aplication
         }
         
         $loadName .= "Controller";
-        print_r($loadName);
         //invertendo a barra para funcionar em servidores linux
         $load = str_replace('\\', '/', $loadName);
 
