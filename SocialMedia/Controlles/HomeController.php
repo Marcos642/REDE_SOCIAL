@@ -10,7 +10,7 @@ class HomeController
             \SocialMedia\Views\MainView::render('home');
         } else {
             // RENDERIZAR PARA CRIAR CONTA
-            \SocialMedia\Views\MainView::render('registrar');
+            \SocialMedia\Views\MainView::render('login');
         }
     }
 }

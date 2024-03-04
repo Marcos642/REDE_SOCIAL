@@ -8,8 +8,6 @@ class Aplication
     {
         $loadName = "SocialMedia\Controlles\\";
         $url = explode("/", @$_GET['url']);
-        // $url = !empty($_GET['url']) ?? '';
-        // $url = explode('/',$url);
 
         if ($url[0] == '') {
             $loadName .= "Home";
