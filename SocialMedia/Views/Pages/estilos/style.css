@@ -1,6 +1,96 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+    background-color: #F6F6F9;
+    height: 100%;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100%;
+    background-color: #EAEAF4;
+}
+
+.form-container-login {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60%;
+    display: flex;
+}
+
+.form-container-login h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #444294;
+}
+
+.form-container-login img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.logo-chamada-login {
+    width: 60%;
+    margin-top: 70px;
+    padding-right: 20px;
+}
+
+.logo-chamada-login p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.form-login {
+    background-color: #fff;
+    width: 60%;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-login input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background: #444294;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-login input[type="submit"]:hover {
+    background-color: #2b2962;
+}
+
+.form-login a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #444294;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
 }
